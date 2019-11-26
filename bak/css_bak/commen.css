@@ -1,0 +1,393 @@
+
+
+nav.navbar{
+    margin-bottom: 0;
+}
+.navbar-default{
+    background-color: #000;
+    border-color: #000;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #fff;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #000;
+}
+.dropdown-menu{
+    background-color: #444;
+    text-align: center;
+    min-width: 130px;
+    padding: 0;
+}
+.dropdown-menu>li>a{
+    padding: 10px 20px;
+    color: #bbb;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+    color: #fff;
+    background-color: #0d7fef;
+}
+
+.navbar-nav>li>.dropdown-menu {
+
+}
+
+
+/* index section-2*/
+
+
+.i_sec2 {
+    margin-top: 10px;
+    width: 100%;
+    height: 900px;
+    background-image: url(https://static.orvibo.com/guanwang_second/front/images/new/index/index_mixpad-a8fbc68dca.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.block_link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.i_sec2 .is_container,.i_sec3 .is_container,.i_sec4 .is_container {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.i_sec2 .is_container{
+    color: #0b0e0f;
+}
+.i_sec2 .is_container h2 {
+    padding-top: 70px;
+    font-size: 36px;
+}
+.i_sec2 .is_container p {
+    font-size: 18px;
+    margin-top: 6px;
+}
+.i_sec2 .is_container .isc_links,.i_sec3 .is_container .isc_links {
+    margin-top: 20px;
+    margin-left: 40px;
+    position: relative;
+    z-index: 3;
+}
+.i_sec2 .is_container .isc_links a {
+    margin-right: 40px;
+    color: #0b0e0f;
+    font-size: 16px;
+}
+.i_sec2 .is_container .isc_links a span {
+    background: url(//static.orvibo.com/guanwang_second/front/images/new/right_arrow_black-157b478844.png) center no-repeat;
+}
+.isc_links a span {
+    display: inline-block;
+    width: 9px;
+    height: 13px;
+    margin-left: 10px;
+    background: url(//static.orvibo.com/guanwang_second/front/images/new/right_arrow-e1fe588018.png) center no-repeat;
+}
+
+
+/*index section3*/
+.i_sec3 {
+    margin-top: 10px;
+    width: 100%;
+    height: 900px;
+    background: #0e0e0e;
+    position: relative;
+}
+
+.i_sec3 .is_container{
+    color: #fff;
+}
+.i_sec3 .is_container h2 {
+    padding-top: 70px;
+    font-size: 36px;
+}
+.i_sec3 .is_container p {
+    font-size: 18px;
+    margin-top: 6px;
+}
+.i_sec3 .is_container .isc_links a {
+    margin-right: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.isc_links a span {
+    display: inline-block;
+    width: 9px;
+    height: 13px;
+    margin-left: 10px;
+    background: url(//static.orvibo.com/guanwang_second/front/images/new/right_arrow-e1fe588018.png) center no-repeat;
+}
+.i_sec3 .is_container .isc_links a span {
+    background-position: -10px;
+}
+/*.i_sec3 .is_container img_bak {*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*left: 19.5%;*/
+/*}*/
+
+
+/*index section4*/
+
+.i_sec4 {
+    margin-top: 10px;
+    width: 100%;
+    height: 900px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("https://static.orvibo.com/guanwang_second/front/images/new/index/index_bg4-64f8db3b7f.jpg");
+    position: relative;
+}
+
+.i_sec4 .is_container {
+    color: #fff;
+}
+
+.i_sec4 .is_container h2 {
+    padding-top: 70px;
+    font-size: 36px;
+    line-height: 48px;
+}
+.i_sec4 .is_container p {
+    font-size: 18px;
+    margin-top: 6px;
+}
+.i_sec4 .is_container .isc_links {
+    margin-top: 20px;
+    margin-left: 40px;
+    position: relative;
+    z-index: 3;
+}
+.i_sec4 .is_container .isc_links a {
+    margin-right: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.i_sec4 .is_container .isc_links a span {
+    background-position: -10px;
+}
+
+/*index section5*/
+
+.i_sec5 .pro1{
+    background-image: url(https://static.orvibo.com/guanwang_second/front/images/new/index/index_sec5_1-f6a4230604.jpg);
+}
+.i_sec5 .pro2{
+    background-image: url(https://static.orvibo.com/guanwang_second/front/images/new/index/index_sec5_2_pro-2d63be5da3.jpg);
+}
+
+.i_sec5 .is_container {
+    padding: 5px;
+    justify-content: center;
+}
+.i_sec5 .is_container, .i_sec6 a {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.i_sec5 .is_container .pro1, .i_sec5 .is_container .pro2, .i_sec5 .is_container .pro3, .i_sec5 .is_container .pro4 {
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.i_sec5 .is_container>div {
+    width: calc(50% - 10px);
+    min-width: 49%;
+    height: 600px;
+    margin: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 18px;
+    color: #111;
+    position: relative;
+}
+.i_sec5 .is_container h2 {
+    padding-top: 60px;
+    font-size: 36px;
+}
+.i_sec5 .is_container p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+.i_sec5 .is_container .isc_links {
+    margin-top: 20px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 3;
+}
+.i_sec5 .is_container .isc_links a:first-child {
+    margin-right: 40px;
+}
+.i_sec5 .is_container .isc_links a {
+    font-size: 16px;
+    color: #0d7fef;
+}
+.i_sec5 .is_container .isc_links a span {
+    background-position: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer{
+    background-color: #2b2d2f;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #5f6875;
+}
+footer h5{
+    color: #fff;
+}
+footer hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #5f6875
+}
+footer a{
+    font-size: 12px;
+    color: #5f6875;
+    transition: color 0.3s;
+}
+footer a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.QRcode{
+    margin-top: 10px;
+}
+.QRcode p{
+    margin-top: 13px;
+    font-size: 12px;
+}
+.QR{
+    width: 80px;
+    height: 80px;
+}
+
+@media (max-width: 1440px) {
+    .i_sec2,.i_sec3,.i_sec4 {
+        height: 700px;
+    }
+    .i_sec3 .is_container h2,.i_sec4 .is_container h2{
+        padding-top: 60px;
+        font-size: 32px;
+    }
+    .i_sec3 .is_container img {
+        height: 476px;
+        left: 24.5%;
+    }
+    .i_sec4 .is_container img {
+        height: 346px;
+    }
+
+}
+@media (max-width: 1366px) {
+    .i_sec2 .is_container h2,.i_sec3 .is_container h2,.i_sec4 .is_container h2   {
+        padding-top: 50px;
+        font-size: 32px;
+    }
+    .i_sec2 .is_container h2 {
+        padding-top: 60px;
+        font-size: 32px;
+    }
+    .i_sec2,.i_sec3,.i_sec4 {
+        height: 650px;
+    }
+    .i_sec3 .is_container img {
+        height: 442px;
+        left: 26.5%;
+    }
+    .i_sec4 .is_container img {
+        height: 322px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .i_sec5 .is_container, .i_sec6 a {
+        display: block;
+        box-sizing: border-box;
+    }
+    .i_sec5 .is_container>div {
+        width: 100%;
+        min-width: 49%;
+        height: 9rem;
+        margin: 0;
+    }
+    .i_sec5 .is_container{
+        padding: 0;
+    }
+    .i_sec5 .pro1{
+        background: url(//static.orvibo.com/guanwang_second/front/mobile/images/new/index/index_bg_06-b581e8759e.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    .i_sec5 .pro2{
+        background: url(//static.orvibo.com/guanwang_second/front/mobile/images/new/index/index_bg_07-f6b9ecdede.jpg) center center no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 768px){
+    html{
+        font-size: 50px;
+    }
+    .dropdown-menu{text-align: left;}
+    .navbar-nav .open .dropdown-menu .dropdown-header, .navbar-nav .open .dropdown-menu>li>a{
+        padding-left: 35px;;
+    }
+
+    .i_sec2{
+        height: 10rem;
+        background-image: url(http://static.orvibo.com/guanwang_second/front/mobile/images/new/index/index_bg_03-b4440100d4.jpg);
+    }
+    .i_sec3 {
+        height: 10rem;
+        background: url(//static.orvibo.com/guanwang_second/front/mobile/images/new/index/index_bg_04-661ab8970c.jpg) center center no-repeat;
+        background-size: cover;
+    }
+    .i_sec4 {
+        height: 10rem;
+        background: url(//static.orvibo.com/guanwang_second/front/mobile/images/new/index/index_bg_05-5f260a5831.jpg) center center no-repeat;
+        background-size: cover;
+    }
+
+    .i_sec5 .is_container h2{
+        font-size: 0.48rem;
+    }
+
+
+    /*products*/
+    .pro_ind_sec1{
+        width: 100%;
+        height: 10rem;
+        background: url(//static.orvibo.com/guanwang_second/front/mobile/images/productlist_index/m_pro_ind_01-d04e7207b8.jpg) center center no-repeat;
+        background-size: cover;
+    }
+
+
+}

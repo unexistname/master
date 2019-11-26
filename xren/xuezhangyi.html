@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <title>温卿新人（薛章毅）</title>
+    <style>
+        .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+            touch-action: manipulation;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+        }
+        .btn, .btn-xs {
+            padding: 1px 5px;
+            font-size: 12px;
+            line-height: 1.5;
+            border-radius: 3px;}
+        .btn-sm {
+            padding: 4px 8px;
+            font-size: 12px;
+            line-height: 1.5;
+            border-radius: 3px;}
+        .btn-success {
+            color: #fff;
+            background-color: #5cb85c;
+            border-color: #4cae4c;
+        }
+        span.alert-copy {
+            padding: 3px 5px;
+            font-size: 12px;
+        }.alert-info {
+             color: #31708f;
+             background-color: #d9edf7;
+             border-color: #bce8f1;
+         }.alert {
+              padding: 15px;
+              margin-bottom: 20px;
+              border: 1px solid transparent;
+              border-radius: 4px;
+          }
+        #article-id{
+            font-family: "Helvetica Neue";
+            margin: 8px;
+        }
+    </style>
+</head>
+<body>
+<br>
+<div><button class="btn btn-success btn-sm float-r" onclick="copyUrl(this)">点此复制全文</button></div>
+<br>
+
+
+<div id="article-id" class="">
+
+</div>
+
+<script src="../guanwang_second/front/js/jquery-2.1.4.min.js"></script>
+<script>
+    var copyUrl = function (btn) {
+        var $obj = $("#article-id");
+        var spanTxt = $obj[0];
+        var selection = window.getSelection();
+        var range = document.createRange();
+        range.selectNodeContents(spanTxt);
+        selection.removeAllRanges();
+        selection.addRange(range);
+        document.execCommand("Copy");
+        var $btn = $(btn);
+        var $alert = $btn.parent().find('.alert');
+
+        if(!$alert.length){
+            var $alert = $('<span class="alert alert-info alert-copy" role="alert">复制成功!</span>');
+            $btn.parent().append($alert);
+        }else {
+            $alert.attr('style','opacity:1');
+        }
+        var leader = 1.5;
+        var alertTimer = window.setInterval(function () {
+            leader = leader + (0-leader)/35;
+            if(leader<0.1){
+                leader = 0;
+                window.clearInterval(alertTimer);
+            }
+            $alert.attr('style','opacity:'+leader);
+        },30);
+    };
+
+</script>
+</body>
+</html>
